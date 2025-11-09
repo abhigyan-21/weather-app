@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Soft light grey background -->
+    <solid android:color="@color/white" />
+    <stroke android:color="@color/black"
+        android:width="2dp"/>
+
+    <!-- Capsule shape -->
+    <corners android:radius="32dp" />
+
+    <!-- Optional padding (for extra spacing) -->
+    <padding
+        android:left="12dp"
+        android:top="8dp"
+        android:right="12dp"
+        android:bottom="8dp" />
+</shape>
